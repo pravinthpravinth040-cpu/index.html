@@ -66,7 +66,7 @@
          </p>
          <p>
              <label for="phone">Phone No:</label>
-             <input type="tel" name="phone" id="phone" placeholder="+91 1234567890 "required pattern="[0-9]{3}" >
+             <input type="tel" name="phone" id="phone" placeholder="+91 1234567890 " >
         </p>
         <p>
             <label for="decade">Fav decade:</label>
@@ -93,6 +93,53 @@
 
         </p>
         </fieldset>
+        <br>
+        <fieldset>
+            <legend>Your fav food</legend>
+            <p>
+                <input type="radio" name="food" id="chicken" value="chicken">
+                <label for="chicken">chicken</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="mutton" value="mutton">
+                <label for="mutton">mutton</label>
+            </p>
+            <p>
+                <input type="radio" name="food" id="others" value="others">
+                <label for="others">others</label>
+            </p><br>
+        </fieldset><br>
+        <fieldset>
+            <legend>Your fav food</legend>
+            <p>
+                <input type="checkbox" name="pet" id="Dog" value="Dog">
+                <label for="Dog">Dog</label>
+            </p>
+            <p>
+                <input type="checkbox" name="" id="Cat" value="Cat">
+                <label for="Cat">Cat</label>
+            </p>
+            <p>
+                <input type="checkbox" name="" id="fish" value="fish">
+                <label for="fish">fish</label>
+            </p>
+            <p>
+                <input type="checkbox" name="" id="others" value="others">
+                <label for="others">others</label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Sent me a note</legend>
+            <label for="message">Your message</label>
+            <p>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Typer your message"></textarea>
+            </p>
+        </fieldset>
+        <button type="submit">Submit</button> 
+        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button> 
+        <button type="reset">Reset</button>
+
+        <br><br><br><br><br>
             </form>
         </article>
 </body>
