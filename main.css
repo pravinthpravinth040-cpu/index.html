@@ -2,6 +2,22 @@
                 font-size: 22px;
             }
             body{
-                background-color: #ec0f0f;
+                background-color: #1607ea;
                 color: rgb(12, 12, 12);
             }
+
+style>
+      html{
+       font-size: 22px;
+    }
+    body{
+        background-color: #460fec;
+        color: rgb(1, 12, 12);
+    }
+    table, tr, th, td, caption {
+        border: 1px solid #eee;
+        font-family: 'Courier New', Courier, Monospce;
+        boeder-collapse: collapse;
+        padding: 0.5rem;
+    }
+</style>
